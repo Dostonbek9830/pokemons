@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    background-color: black;
+}
+
+.pokemons__list {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px;
+}
+
+
+
+.pokemons__item {
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.pokemons__list-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.basic-details__list, .secondary-details__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.following-details__list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.pokemons__list-img {
+    margin: 0 40px;
+}
+
+.pokemons__list-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.basic-details__item, .secondary-details__item, .following-details__item {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
